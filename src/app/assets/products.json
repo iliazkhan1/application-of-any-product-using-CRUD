@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop",
+      "price": 600,
+      "description": "High-performance laptop with SSD storage"
+    },
+    {
+      "id": "2",
+      "name": "Phone",
+      "price": 200,
+      "description": "Latest model with OLED display"
+    },
+    {
+      "id": "3",
+      "name": "TV",
+      "price": 300,
+      "description": "High display picture Quality"
+    },
+    {
+      "id": "3d49",
+      "name": "REFRIGRATOR",
+      "price": 350,
+      "description": "super cooling refrigrator"
+    }
+  ]
+}

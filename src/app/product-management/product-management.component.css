@@ -1,0 +1,95 @@
+.product-management {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f81313;
+  }
+  
+  h2, h3 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .loading {
+    text-align: center;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    text-align: center;
+    color: #d9534f;
+    font-weight: bold;
+  }
+  
+  .add-product-form, .edit-product-form {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .products-list {
+    margin-top: 20px;
+  }
+  
+  .no-products {
+    text-align: center;
+    color: #666;
+  }
+  
+  .product-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  .product-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product-actions button {
+    background: #007bff;
+    margin-right: 5px;
+  }
+  
+  .product-actions button:last-child {
+    background: #d9534f;
+  }
